@@ -44,7 +44,7 @@ Unless you ~installed~ copied WinDbg preview install folder into a non standard 
 C:\Program Files\WindowsApps\Microsoft.WinDbg_1.1906.12001.0_neutral__9wekib2d8acwe
 ```
 
-For 64 bits copy `iris.dll` into `amd64\winext` and for 32 bits copy `iris.dll` into `x86\winext`.
+For 64 bits copy `iris.dll` into `amd64\winext` or into `x86\winext` for 32 bits.
 
 ### Load the extension
 
@@ -68,7 +68,7 @@ As shown in the screenshot above, just run: `!iris.modules` or simply `!modules`
 
 **Don't trust blindly on the results, some might not be accurate**. I pretty much used as reference [PE-bear parser](https://github.com/hasherezade/bearparser/), [winchecksec](https://github.com/trailofbits/winchecksec/), [Process Hacker](https://github.com/processhacker/processhacker), and [narly](https://github.com/d0c-s4vage/narly/). Thank you to all of them.
 
-I put this together in a day to save some time during a specific assignment. It worked for me but it hasn't been throughly tested. You have been warned, use at your own risk.
+I put this together in a day to save some time during a specific assignment. It worked for me but it hasn't been thoroughly tested. You have been warned, use at your own risk.
 
 I'll be updating and maintining this, so any issues you may find please let me know. I plan to add a few more mitigations later.
 
