@@ -6,15 +6,19 @@
 
 The checks implemented, as can be seen in the screenshot above, are (for the loaded modules):
 
-- DynamicBase 
-- ASLR 
-- DEP 
-- SEH 
-- SafeSEH 
-- CFG
-- RFG
-- GS
-- AppContainer
+- [x] DynamicBase 
+- [x] ASLR 
+- [x] DEP 
+- [x] SEH 
+- [x] SafeSEH 
+- [x] CFG
+- [x] RFG
+- [x] GS
+- [x] AppContainer
+- [ ] ACG
+- [ ] Win32kSysCalls
+- [ ] SEHOP
+- [ ] ImageLoad
 
 If you don't know the meaning of some of the keywords above use google, you'll find better explanations than the ones I could give you.
 
