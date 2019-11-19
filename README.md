@@ -105,13 +105,18 @@ IRIS WinDbg Extension (rui@deniable.org). Available commands:
 
 As shown in the screenshot above, just run: `!iris.modules` or simply `!modules`, and `!iris.mitigations` or simply `!mitigations`.
 
+## Requirements
+
+Minimum supported client: Windows 8
+Minimum supported server: Windows Server 2012
+
 ## Warning
 
 **Don't trust blindly on the results, some might not be accurate**. I pretty much used as reference [PE-bear parser](https://github.com/hasherezade/bearparser/), [winchecksec](https://github.com/trailofbits/winchecksec/), [Process Hacker](https://github.com/processhacker/processhacker), [narly](https://github.com/d0c-s4vage/narly/), and [checksec-win](https://github.com/wmliang/checksec-win). Thank you to all of them.
 
 I put this together in a day to save some time during a specific assignment. It worked for me but it hasn't been thoroughly tested. You have been warned, use at your own risk.
 
-I'll be updating and maintining this, so any issues you may find please let me know. I plan to add a few more mitigations later.
+I'll be updating and maintaining this, so any issues you may find please let me know. I plan to add a few more mitigations later.
 
 ## References
 
