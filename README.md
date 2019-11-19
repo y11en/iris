@@ -107,8 +107,8 @@ As shown in the screenshot above, just run: `!iris.modules` or simply `!modules`
 
 ## Requirements
 
-- Minimum supported client: Windows 8
-- Minimum supported server: Windows Server 2012
+- Minimum supported client: **Windows 8**
+- Minimum supported server: **Windows Server 2012**
 
 ## Warning
 
