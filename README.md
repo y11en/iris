@@ -22,6 +22,8 @@ The checks implemented, as can be seen in the screenshots above, are:
   - [x] Dynamic Code Prohibited
   - [x] Allow Threads to Opt Out of the restrictions on ACG
   - [x] Allow Non-AppContainer Processes to Modify all of the ACG settings for the calling process
+- [x] Invalid Handle(s) Reference Policy
+  - [x] Raise Exception on Invalid Handle Reference
 - [x] System Calls Policy
   - [x] Win32k System Calls Disallowed
 - [x] Control Flow Guard Policy
